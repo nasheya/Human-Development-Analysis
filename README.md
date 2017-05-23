@@ -32,3 +32,29 @@ For the World Values Survey, I picked the following values:
 	* V160J. Has an active imagination
 
 All of these features together yielded a R^2 = 0.695. 
+
+After doing all this, I did the "leave one out method" to see which features had the most impact. A variable name means the effect on the R^2 and adjusted R^2 had by leaving that variable out. Here are my results from that:
+
+* All: r2 = 0.695, ar2 = 0.505
+* V15: r2 = 0.694, ar2 = 0.518
+* V16: r2 = 0.688, ar2 = 0.508
+* V20: r2 = 0.679, ar2 = 0.494
+* V22: r2 = 0.690, ar2 = 0.511
+* V27_1: r2 = 0.639, ar2 = 0.432
+* V32_1: r2 = 0.689, ar2 = 0.509
+* V27_2: r2 = 0.667, ar2 = 0.475
+* V32_2: r2 = 0.693, ar2 = 0.516
+* V70_1: r2 = 0.681, ar2 = 0.497
+* V70_2: r2 = 0.694, ar2 = 0.517
+* V70_3: r2 = 0.659, ar2 = 0.463
+* V74B_1: r2 = 0.680, ar2 = 0.497
+* V74B_2: r2 = 0.643, ar2 = 0.437
+* V74B_3: r2 = 0.649, ar2 = 0.446
+* V143_1: r2 = 0.682, ar2 = 0.499
+* V143_2: r2 = 0.692, ar2 = 0.515
+* V160E_1: r2 = 0.691, ar2 = 0.513
+* V160E_2: r2 = 0.695, ar2 = 0.519
+* V160J_5: r2 = 0.691, ar2 = 0.513
+* V160J_4: r2 = 0.695, ar2 = 0.520
+
+In some cases, the general R^2 was kept and the adjusted R^2 went up.
